@@ -175,11 +175,12 @@ h3{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 
 }
-@media(max-width: 700px){
+@media(max-width: 700px)
+{
     .row{
         flex-direction: column;
     }
-}
+ }
 .campus{
     width: 80%;
     margin: auto;
@@ -196,13 +197,16 @@ h3{
 }
 
 .campus-col img{
-    width: 100%;
+    width: 50%;
+    left: -30%;
+    height: 50%;
+
 }
 .layer{
-    background: rgba(226,0,0,0.7);
-    height: 100%;
-    width: 100%;
-    position: absolute;
+    background: transparent;
+    height: 50%;
+    width: 50%;
+    position: relative;
     top: 0;
     left: 0;
     transition: 0.5;
